@@ -1,0 +1,231 @@
+/*span,
+div,
+p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 10px;
+    background: #eeeff0;
+}*/
+
+
+/*padding写成固定的px，会导致width:14%;时的错乱*/
+
+
+/*margin-top对height是有依赖的*/
+
+
+/*百度的外框，主要是通过border:0;来处理的*/
+
+.container .nav_left .glyphicon-fize {
+    font-size: 29px;
+    position: relative;
+    top: 6px;
+}
+
+.container .nav_left span {
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    color: #8c8c8c;
+}
+
+.container {
+    position: relative;
+}
+
+.container .nav_left span {
+    font-size: 10px;
+}
+
+.container .nav_left .weather-num {
+    font-size: 26px;
+}
+
+.container .nav_right span {
+    float: right;
+    color: #8c8c8c;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.container-img {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo-img {
+    width: 175px;
+    height: 55px;
+}
+
+.input_submit {
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+
+@media only screen and (min-width: 760px) {
+    .input_submit .search-input {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width: 760px) and (min-width: 420px) {
+    .input_submit .search-input {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 419px) and (min-width: 320px) {
+    .input_submit .search-input {
+        width: 75%;
+    }
+}
+
+.input_submit .search-input {
+    outline: none;
+    position: relative;
+    padding: 7px 42px 7px 6px;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+    font-size: 18px;
+    display: inline-block;
+    border: 0;
+}
+
+.input_submit .se-inner {
+    width: 82px;
+    position: relative;
+}
+
+.input_submit .se-inner .search-btn {
+    position: absolute;
+    /* top: -1px;
+    right: -1px;*/
+    outline: none;
+    width: 82px;
+    height: 42px;
+    background: #38f;
+    color: #fff;
+    white-space: nowrap;
+    line-height: 42px;
+    letter-spacing: -1px;
+    font-size: 16px;
+    border: 0;
+    box-sizing: inherit;
+}
+
+.navs {
+    clear: both;
+    position: relative;
+    margin-top: 94px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navs li {
+    width: 17%;
+    display: inline-block;
+    text-align: center;
+}
+
+.navs a {
+    font-size: 16px;
+    color: #666;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.plus {
+    position: relative;
+    margin: 28px 0;
+    background: #fff;
+}
+
+.plus-title {
+    padding-left: 20px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #999
+}
+
+.plus-content {
+    overflow: hidden;
+    margin-top: -5px;
+    font-size: 14px;
+}
+
+.plus .plus-content a {
+    float: left;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 6px;
+    width: 25%;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: #262626;
+}
+
+.plus .plus-content2s a {
+    width: 45%;
+}
+
+.content {
+    position: relative;
+    width: 30%;
+    padding: 0 5px;
+    float: left;
+}
+
+.content p {
+    position: absolute;
+    top: 79px;
+    text-align: left;
+}
+
+.content span {
+    text-align: left;
+    display: inline-block;
+    width: 230%;
+}
+
+.content_img {
+    width: 75px;
+    height: 100px;
+}
+
+.content_main {
+    width: 100%;
+    height: 120px;
+}
+
+
+/*.contnet_content {
+
+    height: 60px;
+    float: left;
+}
+
+.contnet_content p {
+    margin: 0;
+    text-align: left;
+}*/

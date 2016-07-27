@@ -1,0 +1,99 @@
+.nav {
+    background-color: #8BC34A;
+    border-bottom: #fff;
+    text-align: left;
+}
+
+.content_right {
+    width: 130px;
+    border: 2px solid #8BC34A;
+    border-bottom: none;
+}
+
+.content_right ul {
+    margin: 0;
+    padding: 0;
+}
+
+.content_right li {
+    text-align: center;
+    line-height: 82px;
+    font-size: 20px;
+    list-style-type: none;
+    border-bottom: 2px solid #8BC34A;
+}
+
+.content_right,
+.content_left {
+    float: left;
+    margin-top: 20px;
+}
+
+.content_left {
+	margin-left: 10px;
+    border: 1px solid;
+}
+
+.content {
+    position: relative;
+    /*width: 30%;
+    padding: 0 5px;
+    float: left;*/
+}
+
+
+
+.content p {
+    position: absolute;
+    top: 79px;
+    text-align: left;
+}
+
+.content span {
+    text-align: left;
+    display: inline-block;
+    width: 230%;
+}
+
+.content_img {
+    width: 75px;
+    height: 100px;
+}
+
+.content_main {
+    /*width: 100%;
+    height: 120px;*/
+    border: 1px solid;
+}
+.content td:nth-child(2) {
+    width: 603px;
+    text-align: left;
+}
+td {
+	padding: 5px;
+	font-size: 20px;
+    border: 1px solid;
+}
+.modify, .delete{
+	cursor:pointer;
+}
+/*修改新闻的样式开始*/
+.form-control{
+    width: 600px;
+}
+.modify_left{
+        float: left;
+    text-align: left;
+    border: 1px solid;
+    margin-top: 20px;
+}
+.label_red{
+    color: #8BC34A;
+}
+/*修改新闻的样式结束*/
+/*文章发布开始*/
+#news_publish{
+    text-align: right;
+    cursor: pointer;
+}
+/*文章发布结束*/
